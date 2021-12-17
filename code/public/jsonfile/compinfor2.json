@@ -1,0 +1,27 @@
+
+{
+	"code": 0,
+	"msg": "",
+	"count": 1000,
+	"data": [{
+		"id": "<a class='hda' href='madnewC3.html'>10000</a>",
+		"oid": 1000000000,
+		"wid": 1000000000,
+		"type": "女",
+		"level": "重要",
+		"state": "已提交",
+		"user": 255,
+		"time1": "2018-08-03",
+		"time2": "2018-09-03"
+	},{
+		"id": "<a class='hda' href='madnewC3.html'>10000</a>",
+		"oid": 1000000000,
+		"wid": 1000000000,
+		"type": "女",
+		"level": "重要",
+		"state": "已提交",
+		"user": 255,
+		"time1": "2018-08-03",
+		"time2": "2018-09-03"
+	}]
+}

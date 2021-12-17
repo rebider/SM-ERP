@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/**
+/*iframe页面
+ */
+html, body {
+    min-width: unset !important;
+    height: 100%;
+}
+
+
+.textpage .warehouse .desc::-webkit-scrollbar {
+    display: none
+}
+
+.textpage .appLogis .col {
+    height: 277px;
+    overflow: auto;
+}
+
+.textpage .chanp th, .chanp input {
+    text-align: center;
+    padding-left: 10px;
+}
+
+.textpage .enable > div {
+    display: inline-block;
+}
+
+.content-wrapper .second div, .frist div {
+    display: inline-block;
+}
+
+.content-wrapper .second, .frist {
+    padding-bottom: 3px;
+}
+
+.content-wrapper .search {
+    margin-top: 10px;
+}
+
+.content-wrapper .second .voin {
+    width: 270px;
+    padding: 0 10px;
+}
+
+.content-wrapper .second > div:last-child {
+    margin-left: 10px;
+}
+
+.content-wrapper .inputBlock {
+    margin-right: 10px
+}
+
+#uploadPop .container {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#uploadPop .container > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.content-wrapper #outputPop .wrap {
+    padding: 20px;
+}
+
+.content-wrapper #outputPop .layui-form-checkbox[lay-skin=primary] span {
+    width: 105px;
+    padding-left: unset;
+}
+
+.content-wrapper #outputPop .layui-form-item .layui-form-checkbox[lay-skin=primary] {
+    width: 130px;
+}
+
+.content-wrapper #outputPop .inputTxt {
+    margin: 0 0 10px 3px;
+}
+
+.content-wrapper #outputPop .layui-form-item li {
+    display: inline-block;
+}
+
+.announcement .layui-form-label {
+    width: 130px;
+}
+.layui-table-cell .layui-form-checkbox[lay-skin=primary], .layui-table-cell .layui-form-radio[lay-skin=primary]{
+    top: 0 !important;
+
+}
+
+.condName .setRule{width: 65%;margin-right: 15px; border:1px solid #eee;border-radius: 3px;}
+.condName .choseTab{width: 35%;border:1px solid #eee;border-radius: 3px;}
+.condName .ruletitle{padding: 5px 15px;background: #eee;}
+.condName li{line-height: 22px; padding: 10px 0; border:1px solid #e1e1e1;border-left: 2px solid #0088cc; }
+.condName .inptxt{width: auto;padding-left: 10px;}
+.condName .inpblock{padding: 0 10px;line-height: 32px;}
+.condName .choselist{padding: 15px;height: 320px;overflow: auto;}
+.condName .ruleSection{padding: 10px 15px;height: 320px;overflow: auto;}
+.condName  .getlist{color: #4c75b8;}
+.condName  .getlist .type{color: #333;}
+.condName  .getlist span, .ruleSection .getlist .type{display: inline-block;vertical-align: top; margin-right: 10px;}
+.condName  .row{margin-bottom: 10px;}
+.condName  .row:last-child{margin-bottom: 0px;}
+.condName  .choselist h4{margin-bottom: 5px;font-weight: bold;border-bottom: 1px solid #eee;padding-bottom: 5px;}
+.condName  .list li{margin:5px 0;}
+

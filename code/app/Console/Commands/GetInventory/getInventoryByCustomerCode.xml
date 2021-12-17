@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://www.example.org/Ec/">
+	<SOAP-ENV:Body>
+		<ns1:callService>
+            <paramsJson>
+{"customer_code":["000011","000012","000013","000014","000015"],"pageSize":20,"page":1}</paramsJson>
+	        <appToken>beade6a009ef2ef74cfecf88926b406a</appToken>
+		    <appKey>fbdfaecd0c0d7eecf374941b46959d90</appKey>
+		    <service>getInventoryByCustomerCode</service>
+        </ns1:callService>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

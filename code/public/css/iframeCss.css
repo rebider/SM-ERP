@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Korbin 280674094@qq.com
+ * @date    2018-09-10 14:08:58
+ * @version $Id$
+ */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-style: normal;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif, SimSun;
+    border: 0 none;
+    outline: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+div, p {
+    word-break: break-all;
+}
+
+a {
+    cursor: pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+}
+
+h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+body {
+    clear: both;
+    color: #333;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+input, textarea, button, select {
+    outline: none;
+    resize: none;
+    border: 1px solid #ccc;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    font-size: 14px;
+}
+
+button, select, input {
+    height: 34px;
+}
+
+input, textarea {
+    padding: 3px 5px;
+    color: #666;
+    background: #fff;
+}
+
+button {
+    background: none;
+    cursor: pointer;
+    border: 0 none;
+}
+
+label {
+    line-height: 22px;
+}
+
+label th, label td {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+/*google浏览器黄色背景*/
+input::-ms-clear, input::-ms-reveal {
+    display: none;
+}
+
+/*ie浏览器的眼睛跟叉叉*/
+input[type='checkbox'], input[type='radio'] {
+    vertical-align: middle;
+    margin-top: -3px;
+    height: 14px;
+}
+
+.openadvisory {
+    padding: 15px;
+}
+
+.layui-form-item, .layui-inline {
+    margin: 10px 0;
+}
+
+.layui-form .layui-form-label {
+    width: 100px;
+}
+
+.layui-form .layui-input-block {
+    line-height: 38px;
+}
+
+.layui-form-radio {
+    margin-top: 0px;
+}
+
+.layui-form-radio > i:hover, .layui-form-radioed > i {
+    color: #3c9dfe;
+}
+
+.writeQues {
+    height: 180px;
+    width: 90%;
+}
+
+.writeQues2 {
+    height: 120px;
+    width: 450px;
+}
+
+.readonly {
+    background: #f9f9f9;
+}
+
+.layui-input-block {
+    margin-left: 100px;
+}
+
+.layui-input-inline {
+    width: 188px;
+}
+
+.indemnity_input .layui-form-select {
+    width: 200px;
+}
+
+.filing_of .layui-form-label {
+    width: 120px;
+}
+
+.filing_of .layui-input-block {
+    margin-left: 120px;
+}
+
+#rulecont02 span {
+    width: 165px !important;
+}

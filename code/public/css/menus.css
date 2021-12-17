@@ -1,0 +1,23 @@
+.colCheckbox{border:1px solid #ddd;margin-bottom: 15px;}
+
+.outWindow .layui-form-checkbox[lay-skin=primary] i{margin-top: 1px;}
+
+.choselist .layui-form-checkbox .ws{vertical-align: top;color: #2a323e;}
+body .layui-form-checkbox span{line-height: 16px;padding: 0 5px;}
+
+.boxall{padding: 8px 15px;border-bottom: 1px solid #ddd;}
+.boxall h3 .ti{display: inline-block;width: 60px; vertical-align: top;margin-right: 20px;}
+
+
+
+.kb_chbox{padding: 10px 15px;overflow: hidden;}
+.kb_chbox .lip{width: 33.3333%;float: left;padding-right: 15px;margin:5px 0; }
+.kb_chbox .ed{display: inline-block;vertical-align: top;background: #4c75b8;line-height: 28px; padding-left: 10px;border-radius: 2px;margin:5px 5px 5px 0;color: #fff;overflow: hidden;}
+.kb_chbox .remv{font-size: 10px;width: 28px;text-align: center;background: #4469a5; margin-left: 10px;cursor: pointer;}
+.kb_chbox .remv:hover{background: #385687}
+.kb_chbox .remv:before{content: '\e90b';}
+
+
+
+
+

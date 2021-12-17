@@ -1,0 +1,22 @@
+﻿.field-vali .layui-input-inlinedation-error, .require {
+    color: red;
+}
+body {
+    background-color:#fff
+}
+
+.ui-jqgrid .ui-jqgrid-view, .ui-jqgrid .ui-paging-info, .ui-jqgrid .ui-pg-table, .ui-jqgrid .ui-pg-selbox,.ui-jqgrid-btable {
+    font-size: 13px !important;
+}
+
+.page-content {
+    padding: 20px 20px 24px;
+}
+
+.myForm li .layui-input-inline .name{background: url(../../loginInfo/img/user.png) no-repeat 10px center;}
+.myForm li .layui-input-inline .phone{background: url(../../loginInfo/img/phone.png) no-repeat 10px center;}
+.myForm li .layui-input-inline .email{background: url(../../loginInfo/img/email.png) no-repeat 10px center;}
+.myForm li .layui-input-inline .pwtro{background: url(../../loginInfo/img/pw.png) no-repeat 10px center;}
+.myForm li .layui-input-inline .verifyinp{background: url(../../loginInfo/img/pin.png) no-repeat 10px center;}
+.myForm li .layui-input-inline .Bname{background: url(../../loginInfo/img/qy.png) no-repeat 10px center;}
+.myForm li .layui-input-inline .addr{background: url(../../loginInfo/img/city.png) no-repeat 10px center;}
